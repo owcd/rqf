@@ -1,31 +1,3 @@
-/* 
-
-Require from a directory relative to node_modules, flattening your require paths.
-
- services = rqf.cwd('services')
- console.log services
- redis = services('redis-then')
- console.log redis
- lib = rqf.cwd().module('lib')
- pageLib = lib.module('page')
- console.log pageLib
- sitemap = pageLib('sitemap')
- console.log sitemap
-
-Example:
-	Given project structure:
-		node_modules/rqf/
-		lib/some/complex/dir/module/module.js
-		lib/otherModule/index.js
-
-	The file module.js:
-		var lib = require('requirefrom')('lib');
- 		var otherModule = lib('otherModule');
-
-	Would be equivalent to:
-		var otherModule = require('../../../../otherModule');
-*/
-
 // path library
 var path = require('path');
 
