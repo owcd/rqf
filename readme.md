@@ -1,6 +1,6 @@
 ## ReQuireFrom (rqf)
 
-Advanced require module for node.js. Removes the need for complex relative paths for require statements. Inspired by requirefrom[https://github.com/dskrepps/requireFrom] module and the discussion [here](https://gist.github.com/branneman/8048520).
+Advanced require module for node.js. Removes the need for complex relative paths for require statements. Inspired by [requirefrom](https://github.com/dskrepps/requireFrom) module and the discussion [here](https://gist.github.com/branneman/8048520).
 
 ## Installation
 
