@@ -1,14 +1,8 @@
 {
   "name": "rqf",
   "version": "0.0.1",
-  "description": "Advanced require from node module inspired by requireFrom (https://github.com/DSKrepps/requireFrom.git).",
+  "description": "Advanced require from module",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "node test/test.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/owcd/rqf.git"
@@ -26,7 +20,7 @@
     "email": "git@owcd.ch",
     "url": "https://github.com/owcd"
   },
-  "license": "MIT",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/owcd/rqf/issues"
   },
